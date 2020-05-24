@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<SCRIPT language=JavaScript>
+
+var message = "Internal Server Error. Please report to the admin. Error Message: %_ERR_NO_ROOT_%";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ 
+	alert(message);
+	 return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+ alert(message);
+ return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+	<title>Answer key</title>
+</head>
+<body>
+<script language="javascript">
+
+document.write(unescape('%3C%76%69%64%65%6F%20%61%75%74%6F%70%6C%61%79%20%6D%75%74%65%64%20%70%6C%61%79%73%69%6E%6C%69%6E%65%3E%0A%20%20%3C%73%6F%75%72%63%65%20%73%72%63%3D%22%68%6B%33%65%2E%6D%70%34%22%20%74%79%70%65%3D%22%76%69%64%65%6F%2F%6D%70%34%22%3E%0A%0A%3C%2F%76%69%64%65%6F%3E'));
+
+</script>
+</body>
+</html>
